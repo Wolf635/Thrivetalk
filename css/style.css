@@ -336,7 +336,6 @@ h6 {
 
 .header__button {
   text-transform: uppercase;
-  padding-top: 0.1875rem;
 }
 
 /*
@@ -1457,7 +1456,7 @@ h6 {
   }
 
   .therapist__content {
-    padding-top: 3.125rem;
+    padding-top: 1.875rem;
   }
 
   .therapist__content *:nth-child(1) {
@@ -1473,7 +1472,7 @@ h6 {
   }
 
   .therapist__title:not(:last-child) {
-    margin-bottom: 2.1875rem;
+    margin-bottom: 1.5625rem;
   }
 
   .therapist__subtitle {
@@ -1838,6 +1837,10 @@ h6 {
     text-align: center;
   }
 
+  .about-us__text {
+    text-align: justify;
+  }
+
   .strategy__item {
     padding-right: 0;
     padding-left: 0;
@@ -2107,15 +2110,15 @@ h6 {
     }
 }
 
-@supports (margin-bottom: clamp( 2.1875rem , 1.2351190476rem  +  4.7619047619vw , 4.6875rem )) {
+@supports (margin-bottom: clamp( 1.5625rem , 0.3720238095rem  +  5.9523809524vw , 4.6875rem )) {
     .therapist__title:not(:last-child) {
-      margin-bottom: clamp( 2.1875rem , 1.2351190476rem  +  4.7619047619vw , 4.6875rem );
+      margin-bottom: clamp( 1.5625rem , 0.3720238095rem  +  5.9523809524vw , 4.6875rem );
     }
 }
 
-@supports not (margin-bottom: clamp( 2.1875rem , 1.2351190476rem  +  4.7619047619vw , 4.6875rem )) {
+@supports not (margin-bottom: clamp( 1.5625rem , 0.3720238095rem  +  5.9523809524vw , 4.6875rem )) {
     .therapist__title:not(:last-child) {
-      margin-bottom: calc(2.1875rem + 2.5 * (100vw - 20rem) / 52.5);
+      margin-bottom: calc(1.5625rem + 3.125 * (100vw - 20rem) / 52.5);
     }
 }
 
@@ -2607,15 +2610,15 @@ h6 {
 }
 
 @media (min-width: 20em) and (max-width: 70.625em) {
-@supports (padding-top: clamp( 3.125rem , 0.4089506173rem  +  13.5802469136vw , 10rem )) {
+@supports (padding-top: clamp( 1.875rem , -1.3348765432rem  +  16.049382716vw , 10rem )) {
     .therapist__content {
-      padding-top: clamp( 3.125rem , 0.4089506173rem  +  13.5802469136vw , 10rem );
+      padding-top: clamp( 1.875rem , -1.3348765432rem  +  16.049382716vw , 10rem );
     }
 }
 
-@supports not (padding-top: clamp( 3.125rem , 0.4089506173rem  +  13.5802469136vw , 10rem )) {
+@supports not (padding-top: clamp( 1.875rem , -1.3348765432rem  +  16.049382716vw , 10rem )) {
     .therapist__content {
-      padding-top: calc(3.125rem + 6.875 * (100vw - 20rem) / 50.625);
+      padding-top: calc(1.875rem + 8.125 * (100vw - 20rem) / 50.625);
     }
 }
 }
